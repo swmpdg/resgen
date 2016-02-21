@@ -131,6 +131,7 @@ void ResourceListBuilder::ListDir(const std::string &path, const std::string &fi
 					extension == "wav" ||
 					extension == "ogg" ||
 					extension == "mod" ||
+					extension == "xm" ||
 					extension == "mid" ||
 					extension == "spr" ||
 					extension == "bmp" ||
@@ -231,6 +232,7 @@ void ResourceListBuilder::ListDir(const std::string &path, const std::string &fi
 						extension == "wav" ||
 						extension == "ogg" ||
 						extension == "mod" ||
+						extension == "xm" ||
 						extension == "mid" ||
 						extension == "spr" ||
 						extension == "bmp" ||
@@ -361,6 +363,7 @@ void ResourceListBuilder::BuildPakResourceList(const std::string &pakfilename)
 				extension == "wav" ||
 				extension == "ogg" ||
 				extension == "mod" ||
+				extension == "xm" ||
 				extension == "mid" ||
 				extension == "spr" ||
 				extension == "bmp" ||
