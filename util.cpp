@@ -273,17 +273,17 @@ int ICompareStrings(const std::string &a, const std::string &b)
 
 std::string BuildValvePath(const std::string &respath)
 {
-    // Check the respath and check ../valve if the respath doesn't point to valve
+    // Check the respath and check ../svencoop if the respath doesn't point to svencoop
 
     #ifdef _WIN32
-    const char* valveStr = "\\valve\\";
+    const char* valveStr = "\\svencoop\\";
     #else
-    const char* valveStr = "/valve/";
+    const char* valveStr = "/svencoop/";
     #endif
 
     if(CompareStrEndNoCase(respath, valveStr))
     {
-	    // NOT valve dir, so check it too
+	    // NOT svencoop dir, so check it too
 	    size_t slashpos = respath.rfind(PATH_SEPARATOR, respath.length() - 2);
 	    if (slashpos != std::string::npos)
 	    {
