@@ -245,6 +245,31 @@ int RESGen::MakeRES(std::string &map, int fileindex, size_t filecount, const Str
 						// wave file
 						AddRes(token, "sound/");
 					}
+					if(c1 == 'm' && c2 == 'p' && c3 == '3')
+					{
+						// mp3 file
+						AddRes(token, "sound/");
+					}
+					if(c1 == 'm' && c2 == 'o' && c3 == 'd')
+					{
+						// mod file
+						AddRes(token, "sound/");
+					}
+					if(c1 == 'm' && c2 == 'i' && c3 == 'd')
+					{
+						// mid file
+						AddRes(token, "sound/");
+					}
+					if(c1 == 'o' && c2 == 'g' && c3 == 'g')
+					{
+						// ogg file
+						AddRes(token, "sound/");
+					}
+					if(c1 == 's' && c2 == '3' && c3 == 'm')
+					{
+						// s3m file
+						AddRes(token, "sound/");
+					}
 					if(c1 == 's' && c2 == 'p' && c3 == 'r')
 					{
 						// sprite file
