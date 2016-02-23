@@ -129,6 +129,7 @@ void ResourceListBuilder::ListDir(const std::string &path, const std::string &fi
 				if (
 					extension == "mdl" ||
 					extension == "wav" ||
+					extension == "mp3" ||
 					extension == "ogg" ||
 					extension == "mod" ||
 					extension == "xm" ||
@@ -234,6 +235,7 @@ void ResourceListBuilder::ListDir(const std::string &path, const std::string &fi
 					if (
 						extension == "mdl" ||
 						extension == "wav" ||
+						extension == "mp3" ||
 						extension == "ogg" ||
 						extension == "mod" ||
 						extension == "xm" ||
@@ -369,6 +371,7 @@ void ResourceListBuilder::BuildPakResourceList(const std::string &pakfilename)
 			if (
 				extension == "mdl" ||
 				extension == "wav" ||
+				extension == "mp3" ||
 				extension == "ogg" ||
 				extension == "mod" ||
 				extension == "xm" ||
