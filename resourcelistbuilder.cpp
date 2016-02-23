@@ -139,7 +139,9 @@ void ResourceListBuilder::ListDir(const std::string &path, const std::string &fi
 					extension == "bmp" ||
 					extension == "tga" ||
 					extension == "txt" ||
-					extension == "wad"
+					extension == "wad" ||
+					extension == "gmr" ||
+					extension == "gsr"
 				)
 				{
 					// resource, add to list
@@ -242,7 +244,9 @@ void ResourceListBuilder::ListDir(const std::string &path, const std::string &fi
 						extension == "bmp" ||
 						extension == "tga" ||
 						extension == "txt" ||
-						extension == "wad"
+						extension == "wad" ||
+						extension == "gmr" ||
+						extension == "gsr"
 					)
 					{
 						// resource, add to list
@@ -375,7 +379,9 @@ void ResourceListBuilder::BuildPakResourceList(const std::string &pakfilename)
 				extension == "bmp" ||
 				extension == "tga" ||
 				extension == "txt" ||
-				extension == "wad"
+				extension == "wad" ||
+				extension == "gmr" ||
+				extension == "gsr"
 			)
 			{
 				// resource, add to list
