@@ -133,6 +133,8 @@ void ResourceListBuilder::ListDir(const std::string &path, const std::string &fi
 					extension == "mod" ||
 					extension == "xm" ||
 					extension == "mid" ||
+					extension == "midi" ||
+					extension == "s3m" ||
 					extension == "spr" ||
 					extension == "bmp" ||
 					extension == "tga" ||
@@ -234,6 +236,8 @@ void ResourceListBuilder::ListDir(const std::string &path, const std::string &fi
 						extension == "mod" ||
 						extension == "xm" ||
 						extension == "mid" ||
+						extension == "midi" ||
+						extension == "s3m" ||
 						extension == "spr" ||
 						extension == "bmp" ||
 						extension == "tga" ||
@@ -365,6 +369,8 @@ void ResourceListBuilder::BuildPakResourceList(const std::string &pakfilename)
 				extension == "mod" ||
 				extension == "xm" ||
 				extension == "mid" ||
+				extension == "midi" ||
+				extension == "s3m" ||
 				extension == "spr" ||
 				extension == "bmp" ||
 				extension == "tga" ||
